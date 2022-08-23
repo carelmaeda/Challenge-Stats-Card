@@ -3,7 +3,7 @@
     --mobile-breakpoint: 375px;
     --desktop-breakpoint: 1440px;
     /*Colors*/
-    --oblue-dark: hsl(233, 47%, 7%); /*Main BCKGD*/
+    --blue-dark: hsl(233, 47%, 7%); /*Main BCKGD*/
     --blue-desaturated: hsl(244, 38%, 16%);  /*Card BCKGD*/
     --violet-light:hsl(277, 64%, 61%);  /*Accent*/
      /*Neutrals*/
@@ -15,44 +15,50 @@
     --padding-default: 1rem;
     --padding-lg: 2rem;
     /*Typography*/
-    --font-size-default: 1.5rem;
-    --font-family-primary: 400 'Inter', sans-serif;
-    --font-family-strong: 700 'Inter', sans-serif;
-    --font-family-secondary: 400 'Lexend Deca', sans-serif;
-}
-
-html{
-    font-size: 15px;
+    --font-family-primary:'Inter', sans-serif;
+    --font-family-secondary:'Lexend Deca', sans-serif;
 }
 
 body
 {
     margin: 0;
     padding:0;
+    background-color: var(--blue-dark);
  
 }
 
 .container {
-    max-width: var(--mobile-breakpoint);
+    border:solid 1px yellow;
+}
+
+section{
+    max-width: 90%;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: dashed 2px white;
 }
 
 /*Typography*/
 
 h1{
-    font-family:var(--font-family-primary);}
+    font-family:var(--font-family-primary);
+    color: var(--white-main);
+    font-size: 1.8rem;
+}
 
-p{font-family:var(--font-family-secondary);}
+p{
+    font-family:var(--font-family-primary);
+    color: var(--white-transparent);
+}
+
+.numbers > p{
+    text-transform: uppercase;
+}
 
 /*Cards*/
 
-
-.card:first-of-type {
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
-}
-
-.card:last-of-type {
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
-}
 
 .card {
     display: grid;
@@ -61,15 +67,20 @@ p{font-family:var(--font-family-secondary);}
     width: 100%;
     overflow:hidden;
     box-sizing:border-box;
+    background-color: var(--blue-desaturated);
 }
 
-.card > div{
-    border: solid 1px red;
+.card-header{
+    border:solid 1px red;
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    height: 10rem;
 }
 
-.card-text{
-    margin:2rem 0 4rem 0;
-    line-height:2.5rem;
+.card-numbers{
+    border:solid 1px blue;
+    height: 10rem;
 }
 
 /*Buttons*/
@@ -112,14 +123,13 @@ footer {
 
 @media (min-width: 700px) {
     body{
-    background-color: antiquewhite;
     margin:0;
     padding:0;
     overflow:hidden;
 }
 
     .container {
-       
+       border: dashed 1px blue;
     }
 
     /*Cards*/
