@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-image-header-mobile",
+      "appliesTo": "images/image-header-mobile.jpg",
+      "type": "launch"
+    }
+  ]
+}
