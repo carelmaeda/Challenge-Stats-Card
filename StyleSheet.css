@@ -87,8 +87,8 @@ p{
     background-position: center;
     height: 330px;
     background: rgb(170, 92, 219,0.4); /* fallback for old browsers */
-    background: linear-gradient(rgb(170, 92, 219,0.4), rgb(170, 92, 219,0.4)), url("../images/image-header-mobile.jpg"); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgb(170, 92, 219,0.4), rgb(170, 92, 219,0.4)), url("../images/image-header-mobile.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(rgb(170, 92, 219,0.4), rgb(170, 92, 219,0.4)), url(images/image-header-mobile.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(170, 92, 219,0.4), rgb(170, 92, 219,0.4)), url(images/image-header-mobile.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     border-radius: 1rem 1rem 0 0;
 }
@@ -148,8 +148,8 @@ footer {
 
     .card-img {
         grid-area: card-img;
-        background: linear-gradient(rgb(170, 92, 219,0.4), rgb(170, 92, 219,0.4)), url("../images/image-header-desktop.jpg"); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(rgb(170, 92, 219,0.4), rgb(170, 92, 219,0.4)), url("../images/image-header-desktop.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(rgb(170, 92, 219,0.4), rgb(170, 92, 219,0.4)), url(images/image-header-desktop.jpg); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(rgb(170, 92, 219,0.4), rgb(170, 92, 219,0.4)), url(images/image-header-desktop.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size:cover;
         height: auto;
         border-radius: 0 1rem 1rem 0;
