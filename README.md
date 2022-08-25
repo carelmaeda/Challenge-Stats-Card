@@ -29,8 +29,8 @@ Users should be able to:
 Here are both views of my Project
 
 
-![desktop screenshot](./screenshots/screencapture-desktop.png)
-![mobile screenshot](./screenshots/screencapture-mobile.png)
+![desktop screenshot](./screenshots/screenshot-desktop.png)
+![mobile screenshot](./screenshots/screenshot-mobile.png)
 
 
 ## My process
